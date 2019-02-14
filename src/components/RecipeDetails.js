@@ -16,7 +16,7 @@ import { faEdit } from '@fortawesome/free-solid-svg-icons';
 
 class RecipeDetails extends Component {
   state = {
-    recipe: this.props.recipe || {id:1000},
+    recipe: this.props.recipe,
     editMode: this.props.recipe ? false : true
   };
 
